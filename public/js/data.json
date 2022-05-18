@@ -1,0 +1,43 @@
+{
+  "heading": "fresh coffee in the evening",
+  "subHeading": "Our coffee is the best",
+
+  "menuCardDetials": [
+    {
+      "imageCode": "menu-1",
+      "name": "Coffee",
+      "discountPrice": "15",
+      "orignalPrice": "20.99"
+    },
+    {
+      "imageCode": "menu-2",
+      "name": "Coffee",
+      "discountPrice": "15.99",
+      "orignalPrice": "20.99"
+    },
+    {
+      "imageCode": "menu-3",
+      "name": "Coffee",
+      "discountPrice": "15.99",
+      "orignalPrice": "20.99"
+    },
+    {
+      "imageCode": "menu-4",
+      "name": "Coffee",
+      "discountPrice": "15.99",
+      "orignalPrice": "20.99"
+    },
+    {
+      "imageCode": "menu-5",
+      "name": "Coffee",
+      "discountPrice": "15.99",
+      "orignalPrice": "20.99"
+    },
+    {
+      "imageCode": "menu-6",
+      "name": "Coffee",
+      "discountPrice": "15.99",
+      "orignalPrice": "20.99"
+    }
+  ]
+}

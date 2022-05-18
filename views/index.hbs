@@ -1,0 +1,350 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="blog.html">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">₹100/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">₹300/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">₹200/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">₹500/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content" id="hero-content">
+        <h3></h3>
+        <p></p>
+        <a href="#menu" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.jpeg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>What makes our coffee special?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
+            ratione a officiis id temporibus autem? Quod nemo facilis
+            cupiditate. Ex, vel?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet
+            enim quod veritatis, nihil voluptas culpa! Neque consectetur
+            obcaecati sapiente?
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container" id="menu-container"></div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Intense cafe</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹500 <span>₹800</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>hazel nut</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹300 <span>₹500</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Latte</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹600 <span>₹1200</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
+            sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
+            quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+          </p>
+          <img src="images/Picture3.jpg" class="user" alt="" />
+          <h3>Ayushi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
+            sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
+            quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+          </p>
+          <img src="images/Picture2.jpg" class="user" alt="" />
+          <h3>Bhavya</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
+            sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
+            quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+          </p>
+          <img src="images/Picture1.jpg" class="user" alt="" />
+          <h3>Parchi Bagga</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////// form section -->
+
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Women enjoying food"
+          ></div>
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first coffee for free!</h2>
+
+            <form
+              method="POST"
+              class="cta-form"
+              name="sign-up"
+              action="/register"
+            >
+              <div>
+                <label for="name">Full Name</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  name="name"
+                />
+              </div>
+
+              <div>
+                <label for="email-address">Email address</label>
+                <input
+                  id="email-address"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear about us?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Please choose on option:</option>
+                  <option value="friends">Friends and Family</option>
+                  <option value="Youtube">Youtube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn btn-form">Sign up now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///////////form section end -->
+
+    <section class="footer">
+      <div class="share">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="fab fa-facebook-f"
+        ></a>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          class="fab fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          class="fab fa-linkedin"
+        ></a>
+        <a
+          href="https://in.pinterest.com/"
+          target="_blank"
+          class="fab fa-pinterest"
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="blog.html">blogs</a>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
